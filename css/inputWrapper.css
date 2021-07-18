@@ -1,0 +1,14 @@
+.input-main{
+    width: 90%;
+    height: 20px;
+    margin-top: 12px;
+    border-radius: 5px;
+    border: 1px solid rgb(216, 216, 216);
+    padding: 10px;
+font-size: 14px;
+}
+.input-error{
+    color: red;
+    font-size: 10px;
+    
+}

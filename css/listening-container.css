@@ -1,0 +1,144 @@
+.child1-content1 nav {
+    display: flex;
+   
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.child1-content1 nav h3 {
+    
+    font-size: 25px;
+}
+.child1-content1 nav h3  span{
+    color: #f3e727;
+}
+.child1-content1{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(255,255,255,0.3);
+    display: flex;
+    align-items: center;
+    
+
+}
+.child1-content2{
+    width: 35%;
+    padding-left: 20%;
+    padding-top: 100px ;
+    
+}
+.child1-content2 h1{
+    padding-bottom: 10px;
+}
+.child1-content2 p {
+    font-weight: bold;
+}
+
+.listening-child2 nav {
+    display: flex;
+    width: 100%;
+   
+    
+   
+    
+    
+    
+}
+.listening-child2 nav div{
+
+    
+    width: 25%;
+    height: 170px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    transition: 0.8;
+    
+    
+}
+.listening-child2 nav div:hover{
+    background-color: #7c4f0f;
+}
+.listening-child2 nav div h3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+}
+.listening-child2 nav div p {
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.no-even-number {
+    background-color: #c09357;
+    
+    
+}
+.even-number {
+    
+    background-color: #b98743;
+   
+}
+.listening-child3{
+    width: 95%;
+    background-color: white;
+    height: auto;
+    margin: auto;
+}
+.listening-child3 iframe{
+    
+    border: none;
+    border-radius: 5px;
+    
+}
+.listening-child3 nav{
+    max-width:700px;
+    flex: 2;
+    
+    
+  
+}
+.listening-child3 nav div{
+    position:relative;
+    height:0;
+    padding-bottom:56.25%;
+    margin-top: 20px;
+}
+.listening-child3 nav div iframe{
+    position:absolute;left:0;top:0;width:100%;height:100%
+}
+.listening-child3 main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    
+}
+.listening-child3 main p{
+    flex: 1;
+    padding-left: 30px;
+    padding-top: 40px;
+    font-size: 12px;
+    line-height: 1.6;
+}
+.listening-child3 h2{
+    margin: auto;
+    width: 200px;
+    padding-top: 20px;
+}
+.home{
+    border: none;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+.topic-color{
+    background-color: #644e2e;
+}

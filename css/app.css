@@ -1,0 +1,37 @@
+@import url(./header.css);
+@import url(./register-form.css);
+@import url(./inputWrapper.css);
+@import url(./login-form.css);
+@import url(./homeScreen.css);
+@import url(./dictionary.css);
+@import url(./flashCard.css);
+@import url(./speak-container.css);
+@import url(./listening-container.css);
+@import url(./flashcard1.css);
+@import url(./read.css);
+@import url(./AnswerForm.css);
+@import url(./MessageBox.css);
+@import url(./WritingSkill.css);
+@import url(./comment.css);
+@import url(./commentList.css);
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&display=swap");
+* {
+    font-family: "Raleway", sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+.active {
+    font-weight: bold;
+}
+.login-container {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+/*  */
+/*  */
+/*  */

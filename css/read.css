@@ -1,0 +1,80 @@
+
+.lesson.read {
+    text-align: center;
+    margin: 20px auto 0 auto;
+    width: 60vw;
+}
+.lesson.read .numerical {
+    display: inline-flex;
+    width: 14vh;
+    height: 14vh;
+    justify-content: center;
+    align-items: center;
+    border: 1vh solid rgb(255, 27, 27);
+    border-radius: 50%;
+    font-size: 8vh;
+    color: rgb(255, 215, 0);
+    background-color: white,
+}
+
+.lesson.read .lesson-title {
+    min-height: 30vh;
+    max-height: 50vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 3px 4px 4px 4px rgb(170, 170, 170);
+    border-radius: 10px;
+    margin: 40px auto 20px auto;
+    padding: 10px 10px;
+    background-color: white;
+}
+.lesson.read .lesson-title > div {
+    font-size: 6vh;
+    color: rgb(56, 56, 56);
+    word-wrap: break-word;
+}
+.lesson.read .lesson-title img {
+    max-height: 40vh;
+    max-width: 90%;
+    filter:contrast(140%);
+}
+.lesson.read .skills {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items:center;
+    align-content: space-around;
+}
+.read-container .child1-content1{
+    background-color: rgb(71, 172, 88);
+}
+@media only screen and (max-width: 1000px){
+    .lesson.read{
+        width: 80vw !important;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .lesson.read{
+        width: 80vw !important;
+        height: 30vh !important;
+    }
+    .lesson.read .lesson-title > div {
+        font-size: 35px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .lesson.read .lesson-title > div {
+        font-size: 24px;
+    }
+    .lesson.read .lesson-title{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .lesson.read .numerical {
+        width: 10vh;
+        height: 10vh;
+        font-size: 6vh;
+    }
+}

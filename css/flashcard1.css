@@ -1,0 +1,13 @@
+.flash-card {
+    width: 400px;
+    height: 240px;
+    word-wrap: break-word;
+    margin: 10px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+}
+.flash-card  h3{
+    padding: 40px 0px;
+}

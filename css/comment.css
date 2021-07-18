@@ -1,0 +1,26 @@
+.comment{
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: #e9e9e9;
+    border-radius: 10px;
+}
+.comment .comment-name{
+    text-align: center;
+    font-weight: bold;
+    margin: 10px auto;
+}
+.comment .comment-image{
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.comment .comment-content{
+    margin: 10px 10px;
+    text-indent: 20px;
+    font-size: 16px;
+    font-weight: 600 !important;
+}
